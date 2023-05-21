@@ -1,9 +1,9 @@
 
 var random=Math.floor(6*Math.random())+1;
-document.querySelector(".img1").setAttribute("src", "images/dice"+random+".png");
+document.querySelector(".img1").setAttribute("src", "dice"+random+".png");
 
 var random2=Math.floor(6*Math.random())+1;
-document.querySelector(".img2").setAttribute("src", "images/dice"+random2+".png");
+document.querySelector(".img2").setAttribute("src", "dice"+random2+".png");
 
 if(random>random2){
     document.querySelector("h1").innerHTML="Player1 Wins!";
